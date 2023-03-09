@@ -7,7 +7,7 @@ A frontend development for the SpaceYaTech Mastori blog application. This is a c
 
 # Space Ya Tech Blog Frontend
 
-This repository contains the frontend code for the Space Ya Tech blog application. The blog frontend is built using React and communicates with the backend API to display and manage blog content.
+This repository contains the frontend code for the Space Ya Tech blog application. The blog frontend is built using React and Vite, and communicates with the backend API to display and manage blog content.
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ To get started with contributing to the blog frontend, follow these steps:
 
 1. Clone this repository to your local machine: https://github.com/SpaceyaTech/blog-frontend.git
 
-2. Install dependencies: npm install
+2. Install dependencies: npm install or yarn install
 
 3. Start the development server: npm run dev
 
