@@ -1,0 +1,15 @@
+# build
+FROM node:alpine as build_stage
+WORKDIR /app
+COPY package.json .
+# COPY package-lock.json .
+# RUN npm ci
+RUN npm i
+COPY . .
+RUN npm run build
+
+# deploy
+FROM nginx:stable-alpine as prod_stage
+COPY --from=build_stage /app/build /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
