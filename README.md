@@ -16,7 +16,7 @@ This repository contains the frontend code for the Space Ya Tech blog applicatio
 
 To run the project on to your system, need to have the following installed .
 
-- [Node](https://nodejs.org/en/download/) and [NPM packages](https://www.npmjs.com/package/download),  all latest versions.
+- [Node](https://nodejs.org/en/download/) and NPM packages, all latest versions.
 - Install appropriate code editor or Interactive Development Environment (IDE)
 
 ## Setup and running the project locally 
