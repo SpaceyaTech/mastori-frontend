@@ -4,3 +4,6 @@ build
 .dockerignore
 Dockerfile
 Dockerfile.prod
+.git
+.DS_Store
+.env
