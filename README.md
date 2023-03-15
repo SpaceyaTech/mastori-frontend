@@ -40,8 +40,51 @@ To run the project on to your system, need to have the following installed .
     ```
 5. The blog frontend will now be available at `http://localhost:3000`.
 
+
 ## Design 
-- All development will be on reference to our [Figma](https://www.figma.com/file/UIPnjph81ynxLM3IUUdM8R/Spaceyatech-design-system?node-id=472%3A5731&t=jGMdp7NTNXRKyst3-0) file link 
+- All development will be in reference to our [Figma](https://www.figma.com/file/UIPnjph81ynxLM3IUUdM8R/Spaceyatech-design-system?node-id=472%3A5731&t=jGMdp7NTNXRKyst3-0) file link 
+
+### Run app with Docker
+
+To install Docker:
+
+###### Docker for windows
+
+[install docker on windows](https://medium.com/devops-with-valentine/how-to-install-docker-on-windows-10-11-step-by-step-83074a80e6f9)
+
+###### Docker for linux (Ubuntu)
+
+[docker on ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04)
+
+To run the app using docker:-
+
+#### Docker in Development
+
+Run:
+
+```
+npm run docker:dev
+```
+
+Then go to http://localhost:3000
+
+Alternatively:
+
+- Run the project locally using docker-compose `docker-compose up`
+- The application should be running on http://localhost:3000
+
+#### Docker in production '\*\* still working on this'
+
+Run:
+
+```
+npm run docker:prod
+```
+
+- Then go to [localhost:3000](http://localhost:3000) or the production domain
+
+## Contributing
+
 
 ## Contributing 
 To contribute to the blog frontend, follow these steps:
@@ -62,6 +105,8 @@ To contribute to the blog frontend, follow these steps:
 
 
 
+
+
 ## Adding Comments to Your Work
 
 To add comments to your work on an issue, follow these steps:
@@ -76,6 +121,7 @@ To add comments to your work on an issue, follow these steps:
 
 5. Once your changes have been reviewed and merged, make sure to close the relevant issue and add a comment to explain how your changes resolved the issue.
 
+
 ## Communication 
 
 For any communication and challenges regarding the project 
@@ -85,3 +131,6 @@ For any communication and challenges regarding the project
 
 By following these guidelines, you can contribute to the Space Ya Tech blog frontend and help improve the overall user experience of the blog application. 
 Remember to communicate frequently with the other developers in the community and to ask for help or feedback whenever you need it. Together, we can create an amazing blog frontend for the Space Ya Tech community.
+**Team**
+
+- https://github.com/orgs/SpaceyaTech/people
