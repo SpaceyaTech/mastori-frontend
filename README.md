@@ -8,41 +8,44 @@ A frontend development for the SpaceYaTech Mastori blog application. This is a c
 # Space Ya Tech Blog Frontend
 
 ## About
+
 This repository contains the frontend code for the Space Ya Tech blog application. The blog frontend is built using React and Vite, and communicates with the backend API to display and manage blog content.
 
-## Set up the project 
+## Set up the project
 
-### Prerequisites 
+### Prerequisites
 
 To run the project on to your system, need to have the following installed .
 
 - [Node](https://nodejs.org/en/download/) and NPM packages, all latest versions.
 - Install appropriate code editor or Interactive Development Environment (IDE)
 
-## Setup and running the project locally 
+## Setup and running the project locally
 
-1. Fork the repo project to your personal account 
-2. Clone the repo to your local machine/environment 
-   ```bash 
+1. Fork the repo project to your personal account
+2. Clone the repo to your local machine/environment
+
+   ```bash
     https://github.com/user-name/blog-frontend.git "Using HTTPS"
-    
-   or 
-   
+
+   or
+
     git@github.com:user-name/blog-frontend.git      "Using ssh"
-    ```
-3. cd blog-frontend and install dependencies 
-    ```bash
-    npm install 
-    ```
-4. Start development server  
-    ```bash
-    npm run dev 
-    ```
+   ```
+
+3. cd blog-frontend and install dependencies
+   ```bash
+   npm install
+   ```
+4. Start development server
+   ```bash
+   npm run dev
+   ```
 5. The blog frontend will now be available at `http://localhost:3000`.
 
+## Design
 
-## Design 
-- All development will be in reference to our [Figma](https://www.figma.com/file/UIPnjph81ynxLM3IUUdM8R/Spaceyatech-design-system?node-id=472%3A5731&t=jGMdp7NTNXRKyst3-0) file link 
+- All development will be in reference to our [Figma](https://www.figma.com/file/UIPnjph81ynxLM3IUUdM8R/Spaceyatech-design-system?node-id=472%3A5731&t=jGMdp7NTNXRKyst3-0) file link
 
 ### Run app with Docker
 
@@ -85,27 +88,23 @@ npm run docker:prod
 
 ## Contributing
 
+## Contributing
 
-## Contributing 
 To contribute to the blog frontend, follow these steps:
 
 1. Find an open [issue](https://github.com/SpaceyaTech/blog-frontend/issues) on the issues page that you would like to work on.
 2. Assign the issue to yourself and create a new branch
-    ```bash
-    git checkout -b branch-name 
-    ```
+   ```bash
+   git checkout -b branch-name
+   ```
 3. Work on the issue by making changes to the codebase.
 4. Add `git add .` and commit `git commit -m "short and descriptives messages"` your changes
-5. Once you have finished working on the issue, push your changes to GitHub: 
-    ```bash
-    git push
+5. Once you have finished working on the issue, push your changes to GitHub:
+   ```bash
+   git push
    ```
 6. Open a Pull Request on GitHub for your changes to be reviewed and merged into the main branch.
 7. Make sure to comment on your pull request with any relevant information about your changes.
-
-
-
-
 
 ## Adding Comments to Your Work
 
@@ -121,15 +120,14 @@ To add comments to your work on an issue, follow these steps:
 
 5. Once your changes have been reviewed and merged, make sure to close the relevant issue and add a comment to explain how your changes resolved the issue.
 
+## Communication
 
-## Communication 
-
-For any communication and challenges regarding the project 
-[Discussion board]() is always open 
+For any communication and challenges regarding the project
+[Discussion board]() is always open
 
 ## Conclusion
 
-By following these guidelines, you can contribute to the Space Ya Tech blog frontend and help improve the overall user experience of the blog application. 
+By following these guidelines, you can contribute to the Space Ya Tech blog frontend and help improve the overall user experience of the blog application.
 Remember to communicate frequently with the other developers in the community and to ask for help or feedback whenever you need it. Together, we can create an amazing blog frontend for the Space Ya Tech community.
 **Team**
 
