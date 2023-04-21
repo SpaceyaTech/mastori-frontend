@@ -1,12 +1,17 @@
 import { useState } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import reactLogo from './assets/react.svg';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <div className="App">
+      <Router>
+        <Navbar />
+      </Router>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />

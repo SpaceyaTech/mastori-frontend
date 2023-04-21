@@ -43,6 +43,17 @@ To run the project on to your system, need to have the following installed .
    ```
 5. The blog frontend will now be available at `http://localhost:3000`.
 
+### Testing the project
+
+1. Run the following command to run the test. This will reload the test on every change.
+   ```bash
+   npm run test
+   ```
+2. To get the test coverage, run the following command
+   ```bash
+   npm run coverage
+   ```
+
 ## Design
 
 - All development will be in reference to our [Figma](https://www.figma.com/file/UIPnjph81ynxLM3IUUdM8R/Spaceyatech-design-system?node-id=472%3A5731&t=jGMdp7NTNXRKyst3-0) file link
