@@ -1,0 +1,22 @@
+.navbar li {
+  list-style: none;
+}
+
+.navbar {
+  width: min(80%, 1440px);
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* mobile first */
+@media (min-width: 799px) {
+  .navbar-list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
