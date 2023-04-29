@@ -19,6 +19,6 @@ describe('Navbar', () => {
 
     // check that the login and signup buttons are rendered
     expect(screen.getByText('Login')).toBeInTheDocument();
-    expect(screen.getByText('Signup')).toBeInTheDocument();
+    expect(screen.getByText('Sign in')).toBeInTheDocument();
   });
 });
